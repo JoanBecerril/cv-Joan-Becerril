@@ -1,0 +1,228 @@
+html {
+    font-size: 16px;
+    background-color: #1a1a1a;
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+}
+
+
+/* Redimensión de fuente utilizando rem */
+
+p {
+    font-size: 1rem;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.6rem;
+}
+
+h4 {
+    font-size: 1.3rem;
+}
+
+h5 {
+    font-size: 1.15rem;
+}
+
+h6 {
+    font-size: 1.05rem;
+}
+
+
+/**************************/
+
+
+/* clases predefinidas */
+
+* {
+    box-sizing: border-box;
+    font-family: 'PT Sans', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* Diseño de columnas */
+
+.column-1 {
+    width: 100%;
+    float: left;
+    border-radius: 20px;
+    padding: 0 300px;
+}
+
+.column-2 {
+    width: 50%;
+    float: left;
+    border-radius: 20px;
+    padding: 0 180px;
+}
+
+.column-3 {
+    width: 33.33%;
+    float: left;
+    padding: 0 200px;
+}
+
+.column-4 {
+    width: 25%;
+    float: left;
+}
+
+.column-5 {
+    width: 20%;
+    float: left;
+}
+
+.column-6 {
+    width: 16.66%;
+    float: left;
+}
+
+.column-75 {
+    width: 75%;
+    float: left;
+}
+
+
+/* Otras clases */
+
+body::-webkit-scrollbar {
+    width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+    background: #313131;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #1a1a1a;
+    border-radius: 20px;
+    border: 3px solid #313131;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 40px;
+    height: 90px;
+}
+
+.english {
+    border-radius: 15px;
+    background-color: #313131;
+    border: 0;
+    width: 100px;
+    height: 30px;
+    font-size: 1.8vh;
+    color: white;
+}
+
+.textos {
+    font-size: 2.5vh;
+}
+
+.primera {}
+
+.segunda {
+    height: 600px;
+}
+
+.tercera {}
+
+.cuartaizquierda {
+    width: 50%;
+    float: left;
+    border-radius: 20px;
+    padding: 0 0 0 700px;
+}
+
+.cuartaderecha {
+    width: 50%;
+    float: left;
+    border-radius: 20px;
+    padding: 0 0px 0 100px;
+}
+
+.quinta {}
+
+.mapa {
+    border: 0;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.video {
+    border: 0;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.downloadpdf {
+    border-radius: 35px;
+    background-color: #313131;
+    border: 0;
+    width: 220px;
+    height: 50px;
+    font-size: 2.6vh;
+    color: white;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: #313131;
+    color: white;
+}
+
+
+/* clase para centrar contenido en horizontal y vertical (lo centra respecto al elemento padre) */
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .column-1 {
+        width: 100%;
+        padding: 0 180px;
+    }
+    .column-2 {
+        width: 50%;
+        padding: 0 180px;
+    }
+    .column-3 {
+        width: 50%;
+        padding: 0 180px;
+    }
+    .column-4 {
+        width: 50%;
+    }
+}
