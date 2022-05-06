@@ -78,7 +78,7 @@ body {
 }
 
 .column-3 {
-    width: 33.33%;
+    width: 45%;
     float: left;
     padding: 0 200px;
 }
@@ -180,6 +180,8 @@ header {
     justify-content: left;
 }
 
+.empresas {}
+
 .downloadpdf {
     border-radius: 35px;
     background-color: #313131;
@@ -253,11 +255,11 @@ footer {
     }
     .cuartaizquierda {
         width: 100%;
-        padding: 0;
+        padding: 8px;
     }
     .cuartaderecha {
         width: 100%;
-        padding: 0;
+        padding: 8px;
     }
     .mapa {
         width: 100%;
