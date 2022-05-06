@@ -142,13 +142,9 @@ header {
     font-size: 2.5vh;
 }
 
-.primera {}
-
 .segunda {
     height: 600px;
 }
-
-.tercera {}
 
 .cuartaizquierda {
     width: 50%;
@@ -161,8 +157,6 @@ header {
     float: left;
     padding: 0 0px 0 100px;
 }
-
-.quinta {}
 
 .mapa {
     border: 0;
@@ -179,8 +173,6 @@ header {
     align-items: center;
     justify-content: left;
 }
-
-.empresas {}
 
 .downloadpdf {
     border-radius: 35px;
