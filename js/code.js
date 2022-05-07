@@ -5,7 +5,7 @@ if (!Modernizr.adownload) {
         var $download = $(this).attr('download');
 
         if (typeof $download !== typeof undefined && $download !== false) {
-            var $el = $('<div>').addClass('download-instruction').text('Right-click and select "Download Linked File"');
+            var $el = $('<div>').addClass('Descargar').text('Descargar');
             $el.insertAfter($(this));
         }
 

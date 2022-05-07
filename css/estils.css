@@ -158,6 +158,12 @@ header {
     padding: 0 0px 0 100px;
 }
 
+.quinta {
+    height: 400px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
 .mapa {
     border: 0;
     border-radius: 20px;
@@ -192,6 +198,23 @@ footer {
     color: white;
 }
 
+#telf {
+    width: 25px;
+}
+
+#mail {
+    width: 30px;
+}
+
+#ubi {
+    width: 20px;
+}
+
+#fotomia {
+    height: 100%;
+    border-radius: 20px;
+}
+
 
 /* clase para centrar contenido en horizontal y vertical (lo centra respecto al elemento padre) */
 
@@ -216,6 +239,7 @@ footer {
     }
     .column-4 {
         width: 50%;
+        padding: 8px;
     }
     header {
         padding: 8px;
